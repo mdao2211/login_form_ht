@@ -250,11 +250,17 @@ span.attention_error {
 }
 
 p.error-text{
+	font-size: 15px;
     padding: 0;
     margin: 0;
 }
 
 .attention_error i{
-    font-size: 15px;
-    padding-bottom: 2px 0;
+    font-size: 9px;
+	margin: 6px 0.5px;
 }
+
+.attention_error {
+	display: none;
+	color: red;
+  }
